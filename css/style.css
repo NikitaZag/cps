@@ -293,7 +293,7 @@ a {
     
     .navigation__list_item--first_section {
         align-items: center;
-        background-image: url("../images/divider.svg")
+        background-image: url("../images/divider.svg");
         background-repeat: no-repeat;
         background-position: 92px 13px;
     }
