@@ -208,7 +208,7 @@ a {
  } 
 .next_contanier {
     display: flex;
-    flex-direction: row;
+    
     margin-left: 15px;
     margin-bottom: 5px;
 }
@@ -475,11 +475,19 @@ a {
         margin-left: 445px;
         white-space: nowrap;
         font-weight: 500;
+        
+        
 
 
 
     }
 
+    .report {
+        color: black;
+    }
+    .status {
+        color: black;
+    }
     .title__nav_item2 {
         margin-left: 8px;
         background-image: url("../images/repair.svg");
