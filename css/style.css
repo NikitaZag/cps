@@ -9,7 +9,53 @@ body {
 li {
     list-style-type: none;
 }
-
+a {
+    text-decoration: none;
+    color: rgba(126, 126, 130, 1);
+}
+.burger {
+    background-image: url(/img/burger.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    
+}
+.logo {
+    background-image: url(/img/Group.svg);
+    background-repeat: no-repeat;
+    width: 96.55px;;
+    height: 50.81px;
+}
+.repeir {
+    background-image: url(/img/repair.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.checkstatus {
+    background-image: url(/img/checkstatus.svg);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+}
+.call {
+    background-image: url(/img/chat.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.chat {
+    background-image: url(/img/call.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.profile {
+    background-image: url(/img/profile.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
 .navigation__list {
     margin: 0;
     padding: 0;
@@ -33,30 +79,22 @@ li {
     width: 10px;
     height: 30px;
     position: absolute;
-    top:13px;
-    right: -20px;
+    
 }
-.first_section {
+.navigation__list_item--first_section {
     display: flex;
-    flex-direction: row;
+   
     gap: 20px;
     align-items: center;
 }
-.second_section {
+.navigation__list_item--second_section {
     display: flex;
-    flex-direction: row;
+    
     gap: 10px;
     align-items: center;
 }
 
-.line_upper {
-    justify-content: space-around;
-    align-items: center;
-    width: 10px;
-    height: 30px;
-    position: absolute;
-    top:5px;
-}
+
 .hidden_section {
     display: flex;
     flex-direction: row;
@@ -102,6 +140,9 @@ li {
 .scroll__list {
     display: flex;
     overflow-x: auto;
+    
+    padding: 0;
+    margin-left: 20px;
 
 
 }
@@ -121,7 +162,8 @@ li {
     letter-spacing: -0.2px;
     white-space: nowrap;
 
-    margin-left: 16px;
+   
+    
 
 
 
@@ -154,20 +196,16 @@ li {
 
 }
 
-.next {
-    /* background-image: url(/img/expand.svg);
+  .next {
+    background-image: url(/img/expand.svg);
     background-repeat: no-repeat;
-    background-position: 7px; */
-    /* display: flex;
-    width: 132px;
-    height: 24px;
-    margin: 24px;
-    margin-left: 20px;
-    text-decoration: none;
-    color: black; */
+    background-position:  7px; 
+    padding-left:30px ;
+    margin-left: 10px;
+    color: black; 
+    margin-bottom: 15px;
 
-
-}
+ } 
 .next_contanier {
     display: flex;
     flex-direction: row;
@@ -202,6 +240,14 @@ li {
 }
 
 @media(min-width: 320px) {
+    .line {
+        height: 100px;
+        left: 190px;
+        align-items: center;
+        background-image: url(/img/divider.svg);
+        background-repeat: no-repeat;
+        background-position: 5px 33px;
+    }
     .call {
         display: none;
     }
@@ -215,9 +261,7 @@ li {
     .profile {
         display: none;
     }
-    .line_upper {
-        display: none;
-    }
+    
 
     .main__text_two {
         display: none;
@@ -238,28 +282,45 @@ li {
     .title__nav {
         display: none;
     }
+    
+    
 }
 
 @media(min-width: 768px) {
+    .line {
+        display: none;
+    }
+    
+    .navigation__list_item--first_section {
+        align-items: center;
+        background-image: url(/img/divider.svg);
+        background-repeat: no-repeat;
+        background-position: 92px 13px;
+    }
+    .navigation__list_item--second_section {
+        align-items: center;
+        background-image: url(/img/divider.svg);
+        background-repeat:no-repeat;
+        background-position: 395px 5px;
+    }
 
-    /* .navigation__list {
+     /* .navigation__list {
 
         align-items: center;
         background-image: url(/img/divider.svg), url(/img/divider.svg);
         background-repeat: no-repeat, no-repeat;
-        background-position: 84px 28px, 626px 28px;
+        background-position: 97px 28px, 626px 28px;
+        
 
 
-    } */
-     .line {
-        left: 90px;
-        right: 0px;
-     }
-     .line_upper {
-        display: flex;
-        right: 0px;
-        left: 395px;
-     }
+    }  */
+     /* .line {
+        background-image: url(/img/divider.svg);
+        background-repeat: no-repeat;
+        background-position: 84px 28px;
+        
+     } */
+    
      .hidden_section {
         display: flex;
      }
