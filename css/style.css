@@ -74,8 +74,7 @@ a {
 .line {
     justify-content: space-around;
     align-items: center;
-    /* background-image: url(/img/divider.svg);
-    background-repeat: no-repeat; */
+   
     width: 10px;
     height: 30px;
     position: absolute;
@@ -121,6 +120,7 @@ a {
     line-height: 40px;
     letter-spacing: -0.6px;
 }
+
 
 .scroll {
     margin: 0;
@@ -482,6 +482,10 @@ a {
 
     .title__nav_item2 {
         margin-left: 8px;
+        background-image: url("../images/repair.svg");
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
 
 
     }
@@ -495,6 +499,10 @@ a {
 
     .title__nav_item4 {
         margin-left: 8px;
+        background-image: url("../images/checkstatus.svg");
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
 
     }
 
