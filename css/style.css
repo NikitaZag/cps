@@ -14,44 +14,44 @@ a {
     color: rgba(126, 126, 130, 1);
 }
 .burger {
-    background-image: url(/img/burger.svg);
+    background-image: url(img/burger.svg);
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
     
 }
 .logo {
-    background-image: url(/img/Group.svg);
+    background-image: url(img/Group.svg);
     background-repeat: no-repeat;
     width: 96.55px;;
     height: 50.81px;
 }
 .repeir {
-    background-image: url(/img/repair.svg);
+    background-image: url(img/repair.svg);
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
 }
 .checkstatus {
-    background-image: url(/img/checkstatus.svg);
+    background-image: url(img/checkstatus.svg);
     background-repeat: no-repeat;
     height: 40px;
     width: 40px;
 }
 .call {
-    background-image: url(/img/chat.svg);
+    background-image: url(img/chat.svg);
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
 }
 .chat {
-    background-image: url(/img/call.svg);
+    background-image: url(img/call.svg);
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
 }
 .profile {
-    background-image: url(/img/profile.svg);
+    background-image: url(img/profile.svg);
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
@@ -108,7 +108,7 @@ a {
     height: 40px;
     margin-top: 24px;
     background-color: #f8f8f8;
-    background-image: url(/img/highlight.svg);
+    background-image: url(img/highlight.svg);
     background-repeat: no-repeat;
 
 
@@ -197,7 +197,7 @@ a {
 }
 
   .next {
-    background-image: url(/img/expand.svg);
+    background-image: url(img/expand.svg);
     background-repeat: no-repeat;
     background-position:  7px; 
     padding-left:30px ;
@@ -244,7 +244,7 @@ a {
         height: 100px;
         left: 190px;
         align-items: center;
-        background-image: url(/img/divider.svg);
+        background-image: url(img/divider.svg);
         background-repeat: no-repeat;
         background-position: 5px 33px;
     }
