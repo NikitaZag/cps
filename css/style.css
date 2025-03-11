@@ -14,44 +14,44 @@ a {
     color: rgba(126, 126, 130, 1);
 }
 .burger {
-    background-image: url("../images/burger.svg");
+    background-image: url("../image/burger.svg");
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
     
 }
 .logo {
-    background-image: url("../images/Group.svg");
+    background-image: url("../image/Group.svg");
     background-repeat: no-repeat;
     width: 96.55px;;
     height: 50.81px;
 }
 .repeir {
-    background-image: url("../images/repair.svg");
+    background-image: url("../image/repair.svg");
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
 }
 .checkstatus {
-    background-image: url("../images/checkstatus.svg");
+    background-image: url("../image/checkstatus.svg");
     background-repeat: no-repeat;
     height: 40px;
     width: 40px;
 }
 .call {
-    background-image: url("../images/chat.svg");
+    background-image: url("../image/chat.svg");
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
 }
 .chat {
-    background-image: url("../images/call.svg");
+    background-image: url("../image/call.svg");
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
 }
 .profile {
-    background-image: url("../images/profile.svg");
+    background-image: url("../image/profile.svg");
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
@@ -107,7 +107,7 @@ a {
     height: 40px;
     margin-top: 24px;
     background-color: #f8f8f8;
-    background-image: url("../images/highlight.svg");
+    background-image: url("../image/highlight.svg");
     background-repeat: no-repeat;
 
 
@@ -197,7 +197,7 @@ a {
 }
 
   .next {
-    background-image: url("../images/expand.svg");
+    background-image: url("../image/expand.svg");
     background-repeat: no-repeat;
     background-position:  7px; 
     padding-left:30px ;
@@ -244,7 +244,7 @@ a {
         height: 100px;
         left: 190px;
         align-items: center;
-        background-image: url("../images/divider.svg");
+        background-image: url("../image/divider.svg");
         background-repeat: no-repeat;
         background-position: 5px 33px;
     }
@@ -293,13 +293,13 @@ a {
     
     .navigation__list_item--first_section {
         align-items: center;
-        background-image: url("../images/divider.svg");
+        background-image: url("../image/divider.svg");
         background-repeat: no-repeat;
         background-position: 92px 13px;
     }
     .navigation__list_item--second_section {
         align-items: center;
-        background-image: url("../images/divider.svg");
+        background-image: url("../image/divider.svg");
         background-repeat:no-repeat;
         background-position: 395px 5px;
     }
@@ -490,7 +490,7 @@ a {
     }
     .title__nav_item2 {
         margin-left: 8px;
-        background-image: url("../images/repair.svg");
+        background-image: url("../image/repair.svg");
         background-repeat: no-repeat;
         width: 40px;
         height: 40px;
@@ -507,7 +507,7 @@ a {
 
     .title__nav_item4 {
         margin-left: 8px;
-        background-image: url("../images/checkstatus.svg");
+        background-image: url("../image/checkstatus.svg");
         background-repeat: no-repeat;
         width: 40px;
         height: 40px;
